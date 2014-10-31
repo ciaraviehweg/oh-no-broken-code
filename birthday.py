@@ -26,7 +26,7 @@ if todays_day < 10 or todays_day > 20:
     if number in number_endings:
 
 # make this print ending, not 'th'
-print "Today is the {}th".format(todays_day)
+	print "Today is the {}th".format(todays_day)
 
 birthday = int(raw_input("What day of the month is your birthday?"))
 
